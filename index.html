@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <title>Reliycs Find - Search for music lyrics</title>
+</head>
+
+<body>
+
+    <main class="border">
+
+        <section>
+            <div class="container mt-4 search d-flex flex-column justify-content-center text-center">
+                <h1 class="">Search Song Lyrics</h1>
+                <form class="d-flex w-50 p-3">
+
+                    <input type="text" class="form-control p-2" name="search-input" id="search-input" style="border-radius: 10px 0 0 10px;">
+                    <button class="btn btn-outline-danger" style="border-radius: 0 10px 10px 0;"><i class="bi bi-search"></i></button>
+
+                </form>
+                <span class="" id="err"></span>
+            </div>
+
+
+            <div class="main mt-5">
+                <div class="container contain">
+                    <div class="row">
+                        <div class="col-12 p-4" id="result">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
